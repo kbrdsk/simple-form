@@ -5,6 +5,35 @@
 		<title>Simple Form</title>
 	</head>
 	<body>
+		<form id="basic-account" novalidate>
+			<p>
+				<label for="email">Email Address</label>
+				<input id="email" type="email" name="email" required></input>
+			</p>
+			<p class="error-message" id="email-error"> </p>
+			<p>
+				<label for="country">Country</label>
+				<input id="country" name="country" list="country-list" required></input>
+				<datalist id="country-list"></datalist>
+			</p>
+			<p class="error-message" id="country-error"> </p>
+			<p>
+				<label for="postal-code">Postal Code</label>
+				<input id="postal-code" name="postal-code"></input>
+			</p>
+			<p class="error-message" id="postal-code-error"> </p>
+			<p>
+				<label for="password">Password</label>
+				<input id="password" type="password" name="password" required></input>
+			</p>
+			<p class="error-message" id="password-error"> </p>
+			<p>
+				<label for="password-confirm">Confirm Password</label>
+				<input id="password-confirm" type="password" required></input>
+			</p>
+			<p class="error-message" id="password-confirm-error"> </p>
+			<input type="submit" name="submit"></input>
+		</form>
 		<script src="bundle.js"></script>
 	</body>
 </html>

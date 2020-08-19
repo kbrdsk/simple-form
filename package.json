@@ -4,7 +4,9 @@
   "description": "Odin Project",
   "main": "src/form.js",
   "scripts": {
-    "test": "jest -all --coverage"
+    "test": "jest -all --coverage",
+    "build": "webpack --progress -p",
+    "server": "webpack-dev-server --open"
   },
   "repository": {
     "type": "git",
@@ -19,6 +21,7 @@
   "devDependencies": {
     "css-loader": "^4.2.1",
     "eslint": "^7.7.0",
+    "postal-codes-js": "^2.5.1",
     "prettier": "^2.0.5",
     "style-loader": "^1.2.1",
     "webpack": "^4.44.1",
