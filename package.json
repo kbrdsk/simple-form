@@ -1,0 +1,28 @@
+{
+  "name": "simple-form",
+  "version": "1.0.0",
+  "description": "Odin Project",
+  "main": "src/form.js",
+  "scripts": {
+    "test": "jest -all --coverage"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/kbrdsk/simple-form.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kbrdsk/simple-form/issues"
+  },
+  "homepage": "https://github.com/kbrdsk/simple-form#readme",
+  "devDependencies": {
+    "css-loader": "^4.2.1",
+    "eslint": "^7.7.0",
+    "prettier": "^2.0.5",
+    "style-loader": "^1.2.1",
+    "webpack": "^4.44.1",
+    "webpack-cli": "^3.3.12",
+    "webpack-dev-server": "^3.11.0"
+  }
+}
